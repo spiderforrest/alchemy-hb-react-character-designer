@@ -6,7 +6,7 @@ import Display from './Display.js';
 
 import './Main.css';
 
-export default function Home() {
+export default function Main() {
   const [head, setHead] = useState('');
   const [body, setBody] = useState('');
   const [leg, setLeg] = useState('');

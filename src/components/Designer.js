@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Editor({ setHead, setBody, setLeg, phrases, setPhrases }) {
+export default function Desginer({ setHead, setBody, setLeg, phrases, setPhrases }) {
   return (
     <div className="display">
       <div className="form">
