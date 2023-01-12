@@ -10,7 +10,7 @@ export default function Main() {
   const [head, setHead] = useState('');
   const [body, setBody] = useState('');
   const [leg, setLeg] = useState('');
-  const [phrases, setPhrases] = useState(['tmp']);
+  const [phrases, setPhrases] = useState(['']);
 
   return (
     <main>

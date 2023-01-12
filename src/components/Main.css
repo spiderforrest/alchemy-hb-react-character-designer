@@ -1,1 +1,15 @@
-/* tmp */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}

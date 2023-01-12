@@ -10,7 +10,7 @@ export default function Desginer({ setHead, setBody, setLeg, phrases, setPhrases
   };
 
   return (
-    <div className="display">
+    <div className="designer">
       <div className="form">
         <select onChange={(e) => setHead(e.target.value)}>
           <option value="bird">bird</option>
