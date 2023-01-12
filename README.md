@@ -1,12 +1,13 @@
 ## Component layout
 ```
-       index
-         |
-         V
-________Main_________________________
-| (state in main)  |        |       |
-V                  V        V       V
-Designer      Character   Header  Footer
+_______App
+|        |
+V        |
+Header   V
+________Main________
+| (state in main)  |
+V                  V
+Designer      Character
 ```
 
 

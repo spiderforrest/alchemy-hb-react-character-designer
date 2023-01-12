@@ -15,7 +15,13 @@ export default function Home() {
   return (
     <main>
       <Display head={head} body={body} leg={leg} phrases={phrases} />
-      <Designer setHead={setHead} setBody={setBody} setLeg={setLeg} setPhrases={setPhrases} />
+      <Designer
+        setHead={setHead}
+        setBody={setBody}
+        setLeg={setLeg}
+        phrases={phrases}
+        setPhrases={setPhrases}
+      />
     </main>
   );
 }
