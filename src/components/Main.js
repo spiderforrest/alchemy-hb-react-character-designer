@@ -1,0 +1,21 @@
+import React from 'react';
+import { useState } from 'react';
+
+import Designer from './Desginer.js';
+import Display from './Display.js';
+
+import './Main.css';
+
+export default function Home() {
+  const [head, setHead] = useState('');
+  const [body, setBody] = useState('');
+  const [leg, setLeg] = useState('');
+  const [phrases, setPhrases] = useState('');
+
+  return (
+    <main>
+      <Display head={head} body={body} leg={leg} phrases={phrases} />
+      <Designer setHead={setHead} setBody={setBody} setLeg={setLeg} setPhrases={setPhrases} />
+    </main>
+  );
+}

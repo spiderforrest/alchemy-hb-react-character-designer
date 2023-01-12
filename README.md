@@ -2,8 +2,8 @@
 ```
        index
          |
-         |
-Main_________________________________
+         V
+________Main_________________________
 | (state in main)  |        |       |
 V                  V        V       V
 Designer      Character   Header  Footer
