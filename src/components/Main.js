@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-import Designer from './Desginer.js';
+import Designer from './Designer.js';
 import Display from './Display.js';
 
 import './Main.css';
