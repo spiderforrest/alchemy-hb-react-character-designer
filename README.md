@@ -1,3 +1,15 @@
+## Component layout
+```
+       index
+         |
+         |
+Main_________________________________
+| (state in main)  |        |       |
+V                  V        V       V
+Designer      Character   Header  Footer
+```
+
+
 # Alchemy React Base Template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
